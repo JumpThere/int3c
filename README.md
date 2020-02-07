@@ -11,9 +11,9 @@ Code analogy:
 
  - readelf to find the imports the binary has
  - radare2 in debugging mode to see how the binary behaves on execution
-     - radare2 ./santa
-     - Make a list of imports/calls the binary has
-     - Invoke r2 on debug mode:
+     # radare2 ./santa
+     # Make a list of imports/calls the binary has
+     # Invoke r2 on debug mode:
          # r2 -d ./santa
          # aa # analyze functions and calls
          # Set a breakpoint to sym.<network>.send function.
