@@ -1,5 +1,5 @@
 # int3c
-Snippets about recent Malware Analysis
+Snippets about recent Malware Analysis: ELF executable.
 
 Abstract about this malware:
 
@@ -23,6 +23,8 @@ Code analogy:
          # Go visual
          # v!
          # Navigate the stack panel and grab the https://pastebin[]com/XXXXX IoCs
+ 
+ Note: Observe the breakpoints targetting the network calls. Multiple breakpoints could be set using 'db' instruction and you can toggle it with 'db -<sym.function>' argument.
          
          
 EoF - JumpThere
